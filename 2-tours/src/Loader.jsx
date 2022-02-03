@@ -9,8 +9,7 @@ const override = css`
 
 const Loader = ({loading}) => {
 let [color, setColor] = useState("#36D7B7");
-
-  return <ClipLoader color={color} loading={loading} css={override} size={150} />
+  return <ClipLoader color={color} loading={loading} css={override} size={60} />
   ;
 };
 
